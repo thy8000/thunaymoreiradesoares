@@ -1,0 +1,23 @@
+#about-me{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+#about-me h2 {
+    text-align: center;
+    font-size: 2rem;
+    color: #161C23;
+    letter-spacing: 0.3rem;
+    text-transform: uppercase;
+}
+#about-me .about-me-image{
+    display: flex;
+    justify-content: center;
+}
+#about-me img{
+    border-radius: 5px;
+}
+#about-me .about-me-text{
+    text: #0E141B;
+    font-size: 1.1rem;
+}

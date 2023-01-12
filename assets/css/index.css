@@ -1,7 +1,11 @@
+@import url('fonts.css');
 @import url('container.css');
+@import url('standarts.css');
 @import url('top-hero.css');
+@import url('about-me.css');
 
 body{
     margin: 0;
     font-size: 100%;
+    font-family: 'Poppins', sans-serif;
 }
