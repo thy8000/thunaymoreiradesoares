@@ -3,6 +3,7 @@
 @import url('standarts.css');
 @import url('top-hero.css');
 @import url('about-me.css');
+@import url('fullpage.css');
 
 body{
     margin: 0;
