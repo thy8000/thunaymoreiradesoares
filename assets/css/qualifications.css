@@ -1,0 +1,43 @@
+#qualifications {
+  background-color: #e9ecef;
+  display: flex;
+  align-items: center;
+}
+
+#qualifications h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #161c23;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+
+#qualifications .flex-container {
+  flex-wrap: wrap;
+  row-gap: 20px;
+  column-gap: 5%;
+  justify-content: center;
+}
+#qualifications .card {
+  width: 40%;
+  padding: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+}
+#qualifications .card .icon {
+  padding-top: 1rem;
+  display: flex;
+  align-self: center;
+}
+#qualifications .card .title {
+  padding-top: 1rem;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+#qualifications .card .description {
+  font-family: "Lora", serif;
+}

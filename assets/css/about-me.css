@@ -16,6 +16,7 @@
 }
 #about-me img{
     border-radius: 5px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
 #about-me .about-me-text{
     text: #0E141B;
