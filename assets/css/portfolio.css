@@ -1,0 +1,66 @@
+#portfolio {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+#portfolio h2 {
+  text-align: center;
+  font-size: 2rem;
+  color: #161c23;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 430px;
+  height: 287px;
+  position: relative;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 287px;
+}
+
+.description-box{
+    opacity: 0;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    top:0;
+    left: 0;
+    transition: 0.5s all;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.description-text{
+    text-align: center;
+}
+.description-box span{
+    color: white;
+    font-size: 2rem;
+    position: relative;
+    opacity: 1;
+    font-weight: 800;
+}
+.description-box p{
+    color: white;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: "Poppins", serif;
+    text-transform: uppercase;
+}
+.swiper-slide:hover .description-box{
+    opacity: 0.8;
+}
