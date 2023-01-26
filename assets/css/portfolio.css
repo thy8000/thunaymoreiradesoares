@@ -65,6 +65,21 @@
   font-weight: 500;
   font-family: "Poppins", serif;
   text-transform: uppercase;
+  padding: 0px 10px 10px 10px;
+}
+
+.description-box a {
+  text-decoration: none;
+  background-color: transparent;
+  border: 2px solid white;
+  padding: 10px 20px;
+  border-radius: 9999px;
+  color: white;
+  transition: 0.5s all;
+}
+.description-box a:hover {
+  background-color: white;
+  color: black;
 }
 
 .swiper-slide:hover .description-box {
@@ -79,7 +94,7 @@
 .tablinks {
   border-bottom: 1px solid #ccc;
   font-size: 1rem;
-  font-family: 'Lora', serif;
+  font-family: "Lora", serif;
   text-transform: uppercase;
 }
 
