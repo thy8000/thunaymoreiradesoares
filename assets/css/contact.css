@@ -1,0 +1,16 @@
+#contact {
+  background-color: #e9ecef;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+#contact .contact-wrapper{
+    flex-direction: column;
+    align-items: center;
+}
+
+#contact .contact-wrapper-text{
+    text-align: center;
+    font-size: 1.3rem;
+}
