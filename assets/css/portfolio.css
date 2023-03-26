@@ -1,7 +1,12 @@
 #portfolio {
-  height: 100vh;
+  height: auto;
   display: flex;
   align-items: center;
+}
+@media (min-width: 992px){
+  #portfolio {
+    height: 100vh;
+  }
 }
 
 #portfolio h2 {

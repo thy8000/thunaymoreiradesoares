@@ -1,7 +1,14 @@
 #qualifications {
   background-color: #e9ecef;
-  display: flex;
+  display: block;
   align-items: center;
+  height: auto;
+}
+@media (min-width : 992px){
+  #qualifications {
+    display: flex;
+    height: 100vh;
+  }
 }
 
 #qualifications h2 {
@@ -12,14 +19,20 @@
   text-transform: uppercase;
 }
 
-#qualifications .flex-container {
+#qualifications .qualifications-cards-wrapper {
   flex-wrap: wrap;
   row-gap: 20px;
   column-gap: 5%;
   justify-content: center;
+  flex-direction: column;
+}
+@media (min-width: 992px){
+  #qualifications .qualifications-cards-wrapper {
+    flex-direction: row;
+  }
 }
 #qualifications .card {
-  width: 40%;
+  width: 100%;
   padding: 10px;
   background-color: white;
   display: flex;
@@ -28,6 +41,12 @@
   border-radius: 15px;
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
 }
+@media (min-width: 992px){
+  #qualifications .card {
+    width: 40%;
+  }
+}
+
 #qualifications .card .icon {
   padding-top: 1rem;
   display: flex;
