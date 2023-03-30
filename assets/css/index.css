@@ -1,19 +1,18 @@
-@import url('onepage-scroll.css');
-@import url('fonts.css');
-@import url('container.css');
-@import url('standarts.css');
-@import url('top-hero.css');
-@import url('about-me.css');
-@import url('qualifications.css');
-@import url('portfolio.css');
-@import url('projects.css');
-@import url('contact.css');
-@import url('components/swiper.css');
-@import url('components/tab.css');
+@import url("onepage-scroll.css");
+@import url("fonts.css");
+@import url("container.css");
+@import url("standarts.css");
+@import url("top-hero.css");
+@import url("about-me.css");
+@import url("qualifications.css");
+@import url("portfolio.css");
+@import url("projects.css");
+@import url("contact.css");
+@import url("components/swiper.css");
+@import url("components/tab.css");
 
-
-body{
-    margin: 0;
-    font-size: 100%;
-    font-family: 'Poppins', sans-serif;
+body {
+  margin: 0;
+  font-size: 100%;
+  font-family: "Poppins", sans-serif;
 }

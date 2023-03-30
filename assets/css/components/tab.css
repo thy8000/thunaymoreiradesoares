@@ -32,13 +32,8 @@
 .tabcontent {
   display: none;
   padding: 6px 12px;
-}
-
-.tabcontent {
   animation: fadeEffect 1s;
-  /* Fading effect takes 1 second */
 }
-
 @keyframes fadeEffect {
   from {
     opacity: 0;

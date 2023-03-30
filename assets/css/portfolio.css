@@ -56,6 +56,7 @@
   color: white;
   transition: 0.5s all;
 }
+
 .description-box a:hover {
   background-color: white;
   color: black;

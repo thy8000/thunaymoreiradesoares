@@ -22,7 +22,7 @@
   font-size: 1.3rem;
   width: 100%;
 }
-@media (min-width: 992px){
+@media (min-width: 992px) {
   #contact .contact-wrapper-text {
     text-align: center;
     font-size: 1.3rem;
@@ -42,11 +42,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: .5s all;
+  transition: 0.5s all;
   cursor: pointer;
 }
 
-.contact-icon-item:hover{
+.contact-icon-item:hover {
   background-color: #161c23;
   border: 1px solid white;
 }

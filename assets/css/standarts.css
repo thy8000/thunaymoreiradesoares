@@ -1,15 +1,17 @@
 .flex {
   display: flex;
 }
+
 .width-50 {
   width: 50%;
 }
-.main.onepage-wrapper .section{
+
+.main.onepage-wrapper .section {
   height: auto;
   padding: 3rem 0;
 }
 @media (min-width: 992px) {
-  .main.onepage-wrapper .section{
+  .main.onepage-wrapper .section {
     height: 100vh;
     padding: unset;
   }
