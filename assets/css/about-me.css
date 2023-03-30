@@ -1,11 +1,9 @@
 #about-me{
-    height: auto;
     display: block;
     align-items: center;
 }
 @media (min-width: 992px){
     #about-me{
-        height: 100vh;
         display: flex;
     }
 }

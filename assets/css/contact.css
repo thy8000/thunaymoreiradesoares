@@ -1,6 +1,5 @@
 #contact {
   background-color: #e9ecef;
-  height: 100vh;
   display: flex;
   align-items: center;
 }
@@ -21,6 +20,14 @@
 #contact .contact-wrapper-text {
   text-align: center;
   font-size: 1.3rem;
+  width: 100%;
+}
+@media (min-width: 992px){
+  #contact .contact-wrapper-text {
+    text-align: center;
+    font-size: 1.3rem;
+    width: 50%;
+  }
 }
 
 .contact-icon-wrapper {

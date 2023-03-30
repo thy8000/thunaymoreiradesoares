@@ -1,0 +1,50 @@
+.tab {
+  overflow: hidden;
+  border-bottom: 1px solid #ccc;
+}
+
+.tablinks {
+  border-bottom: 1px solid #ccc;
+  font-size: 1rem;
+  font-family: "Lora", serif;
+  text-transform: uppercase;
+}
+
+.tab button {
+  background-color: inherit;
+  border: 1px transparent;
+  outline: none;
+  cursor: pointer;
+  padding: 14px 16px;
+  transition: 0.3s;
+}
+
+.tab button:hover {
+  color: #404040;
+}
+
+.tab button.active {
+  color: #404040;
+  font-weight: 600;
+  border-bottom: 1px solid #404040;
+}
+
+.tabcontent {
+  display: none;
+  padding: 6px 12px;
+}
+
+.tabcontent {
+  animation: fadeEffect 1s;
+  /* Fading effect takes 1 second */
+}
+
+@keyframes fadeEffect {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}

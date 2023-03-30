@@ -2,12 +2,10 @@
   background-color: #e9ecef;
   display: block;
   align-items: center;
-  height: auto;
 }
 @media (min-width : 992px){
   #qualifications {
     display: flex;
-    height: 100vh;
   }
 }
 
@@ -33,7 +31,7 @@
 }
 #qualifications .card {
   width: 100%;
-  padding: 10px;
+  padding: 10px 0;
   background-color: white;
   display: flex;
   flex-direction: column;
@@ -59,4 +57,5 @@
 }
 #qualifications .card .description {
   font-family: "Lora", serif;
+  padding: 10px;
 }

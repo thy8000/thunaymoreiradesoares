@@ -1,0 +1,28 @@
+.swiper {
+  width: 100%;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.swiper-slide {
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  height: auto;
+  position: relative;
+}
+@media (min-width: 992px) {
+  .swiper-slide {
+    width: 430px;
+    height: 287px;
+  }
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 287px;
+}
+.swiper-slide:hover .description-box {
+  opacity: 0.8;
+}
