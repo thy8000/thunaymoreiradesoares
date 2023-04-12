@@ -10,9 +10,34 @@
 @import url("contact.css");
 @import url("components/swiper.css");
 @import url("components/tab.css");
+@import url("components/contact-float-button.css");
 
 body {
   margin: 0;
   font-size: 100%;
   font-family: "Poppins", sans-serif;
+  overflow-x: hidden !important;
+}
+
+.section-title{
+  text-align: center;
+  font-size: 1.3rem;
+  color: #161c23;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+  padding-bottom: 50px;
+}
+.section-title + .swiper{
+  padding-bottom: 0px;
+}
+@media (min-width: 760px){
+  .section-title{
+    font-size: 1.5rem;
+  }
+}
+@media (min-width: 992px){
+  .section-title{
+    font-size: 2rem;
+    padding-bottom: unset;
+  }
 }

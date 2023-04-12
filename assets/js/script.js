@@ -59,3 +59,12 @@ function changeTab(evt, tabName) {
 }
 
 document.getElementById("defaultOpen").click();
+
+/**
+ * Contact Float Button
+ */
+$(document).ready(function () {
+  $(".contact-float-button").click(function () {
+    $(this).toggleClass("open");
+  });
+});

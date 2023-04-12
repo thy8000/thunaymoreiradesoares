@@ -1,0 +1,49 @@
+.contact-float-button {
+  background-color: black;
+  width: 500px;
+  height: 70px;
+  position: fixed;
+  bottom: 70px;
+  left: -125px;
+  border-radius: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-170px);
+  transition: 0.5s all;
+  z-index: 2;
+  gap: 1rem;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+.contact-float-button.open{
+    transform: translateX(15%);
+}
+
+.contact-float-link-wrapper{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    gap: 0.4rem;
+}
+
+.contact-float-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-float-icon {
+    width: 35px;
+    height: 35px;
+    stroke: white;
+}
+
+.contact-float-label-wrapper{
+    display: flex;
+}
+
+.contact-float-label{
+    color: white;
+    cursor: pointer;
+}
