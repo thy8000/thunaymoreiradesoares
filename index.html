@@ -22,15 +22,30 @@
 </head>
 
 <body>
+  <div class="mobile-top-header-bar"></div>
+  <input type="checkbox" id="top-header-hamburguer-toggle">
+  <label class="top-header-hamburguer-icon" for="top-header-hamburguer-toggle"></label>
   <div class="top-header header-transparent">
     <div class="top-header-wrapper">
       <ul class="top-header-list">
-        <li class="top-header-list-item selected-item" data-page="1">Início</li>
-        <li class="top-header-list-item" data-page="2">Sobre mim</li>
-        <li class="top-header-list-item" data-page="3">Qualificações</li>
-        <li class="top-header-list-item" data-page="4">Portfolio</li>
-        <li class="top-header-list-item" data-page="5">Projetos que fiz parte</li>
-        <li class="top-header-list-item" data-page="6">Contato</li>
+        <li class="top-header-list-item selected-item" data-page="1">
+          <a class="top-header-list-item-link link-top-hero" href="#top-hero">Início</a>
+        </li>
+        <li class="top-header-list-item" data-page="2">
+          <a class="top-header-list-item-link link-about-me" href="#about-me">Sobre mim</a>
+        </li>
+        <li class="top-header-list-item" data-page="3">
+          <a class="top-header-list-item-link link-qualifications" href="#qualifications">Qualificações</a>
+        </li>
+        <li class="top-header-list-item" data-page="4">
+          <a class="top-header-list-item-link link-portfolio" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="top-header-list-item" data-page="5">
+          <a class="top-header-list-item-link link-projects" href="#projects">Projetos que fiz parte</a>
+        </li>
+        <li class="top-header-list-item" data-page="6">
+          <a class="top-header-list-item-link link-contact" href="#contact">Contato</a>
+        </li>
       </ul>
     </div>
   </div>
@@ -94,7 +109,7 @@
     </div>
   </div>
   <div class="main">
-    <section id="top-hero">
+    <section id="top-hero" class="section-scroll top-hero">
       <div class="container">
         <div class="top-hero-title">
           <h1>Thunay Moreira de Soares</h2>
@@ -102,7 +117,7 @@
         </div>
       </div>
     </section>
-    <section id="about-me">
+    <section id="about-me" class="section-scroll about-me">
       <div class="container">
         <h2 class="section-title font-poppins">Sobre mim</h2>
 
@@ -121,7 +136,7 @@
         </div>
       </div>
     </section>
-    <section id="qualifications">
+    <section id="qualifications" class="section-scroll qualifications">
       <div class="container">
         <h2 class="section-title font-poppins">Qualificações</h2>
 
@@ -199,7 +214,7 @@
         </div>
       </div>
     </section>
-    <section id="portfolio">
+    <section id="portfolio" class="section-scroll portfolio">
       <div class="container">
         <h2 class="section-title font-poppins">Portfolio</h2>
 
@@ -330,7 +345,7 @@
         </div>
       </div>
     </section>
-    <section id="projects">
+    <section id="projects" class="section-scroll projects">
       <div class="container">
         <h2 class="section-title font-poppins">Projetos que fiz parte</h2>
         <div class="swiper mySwiper">
@@ -371,7 +386,7 @@
         </div>
       </div>
     </section>
-    <section id="contact">
+    <section id="contact" class="section-scroll contact">
       <div class="container">
         <div class="contact-wrapper flex">
           <h2 class="section-title font-poppins">Contato</h2>
