@@ -1,14 +1,9 @@
 {
   "devDependencies": {
     "autoprefixer": "^10.4.14",
-    "cssnano": "^6.0.0",
-    "postcss": "^8.4.23",
-    "postcss-cli": "^10.1.0",
     "uglify-js": "^3.17.4"
   },
   "scripts": {
-    "js": "uglifyjs assets/js/all/*.js -o assets/js/all-min.js",
-    "css": "postcss assets/css/all/*.css --use autoprefixer cssnano -d assets/css/all-min",
-    "css-components": "postcss assets/css/all/components/*.css --use autoprefixer cssnano -d assets/css/all-min/components/"
+    "js": "uglifyjs assets/js/all/*.js -o assets/js/all-min.js"
   }
 }
