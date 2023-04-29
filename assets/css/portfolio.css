@@ -24,19 +24,30 @@
 
 .description-box span {
   color: white;
-  font-size: 2rem;
+  font-size: 1rem;
   position: relative;
   opacity: 1;
   font-weight: 800;
+  padding: 0 10px;
+}
+@media (min-width: 768px){
+  .description-box span {
+    font-size: 2rem;
+  }
 }
 
 .description-box p {
   color: white;
-  font-size: 1rem;
+  font-size: 0.7rem;
   font-weight: 500;
   font-family: "Poppins", serif;
   text-transform: uppercase;
-  padding: 0px 10px 10px 10px;
+  padding: 0px 30px 10px 30px;
+}
+@media (min-width: 768px){
+  .description-box p {
+    font-size: 1rem;
+  }
 }
 
 .description-box a {
