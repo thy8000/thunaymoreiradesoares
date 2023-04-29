@@ -3,6 +3,6 @@
     "uglify-js": "^3.17.4"
   },
   "scripts": {
-    "build": "uglifyjs assets/js/*.js -o all-min.js"
+    "build": "uglifyjs assets/js/all/*.js -o assets/js/all-min.js"
   }
 }
